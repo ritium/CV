@@ -1,0 +1,112 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+img{
+  height: 150px;
+  width: 50px;
+}
+section{
+  height: auto;
+  justify-content: center;
+  align-items: center;
+
+}
+
+header{
+  background-color: DodgerBlue;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family:verdana
+}
+.Habilidades{
+ 
+  background-color: rgb(186, 236, 220);
+  text-align: center;
+
+  font-family:courier;
+  
+
+}
+.Experiencia-lista{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+}
+
+.Detalle-Experiencia{
+  border: 5px solid grey;
+  background-color: rgb(129, 224, 193);
+  border-radius: 15px;
+  width: 300px;
+  margin:20px;
+  font-family:courier;
+}
+nav ul{
+  display: flex;
+  justify-content: center;
+  list-style: none;
+
+}
+
+nav{
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: antiquewhite;
+}
+
+nav ul li{
+  margin-left: 20px;
+  margin-right: 20px;
+  padding: 10px 20px;
+  background-color: aliceblue;
+}
+header{
+  position: sticky;
+  top: 0;
+}
+
+header img{
+  position: left;
+  width: 200px;
+
+}
+
+h1{
+  font-size: 3rem;
+  text-transform: uppercase;
+}
+
+h2{
+  font-size: 2rem;
+  text-align: center;
+  font-family: 'Gloock', serif;
+}
+
+body{
+  background-color: antiquewhite;
+}
+
+.Contacto{
+ background-position: center;
+ text-align: justify;
+ background-color: azure;
+ height: auto;
+ width: auto;
+ border: 5px  solid grey ;
+ padding: 5px;
+ margin: 25px
+
+}
+article{
+  background-color: grey;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family:verdana
+}
