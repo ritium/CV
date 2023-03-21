@@ -1,112 +1,75 @@
 * {
   box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
-img{
-  height: 150px;
-  width: 50px;
-}
-section{
-  height: auto;
-  justify-content: center;
-  align-items: center;
-
 }
 
-header{
-  background-color: DodgerBlue;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  font-family:verdana
+body {
+  font-family: Arial, Helvetica, sans-serif;
 }
-.Habilidades{
- 
-  background-color: rgb(186, 236, 220);
+/* Creo el estilo del header */
+header {
+  background-color: #666;
+  padding: 1px;
   text-align: center;
+  font-size: 35px;
+  color: white;
+  position: sticky;
+  top: 0;
+}
+/* Create 2 columnas/una la lado de la otra */
 
-  font-family:courier;
-  
+section {
+  float: left;
+  width: 30%;
+  height: 100%;
+  background: #7a7bc0;
+  padding: 20px;
 
 }
-.Experiencia-lista{
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+article{
+float: right;
+padding: 20px;
+width: 70%;
+background-color: #f1f1f1;
+height: 100%;
+}
+
+@media (max-height: 600px) {
+ article, section, footer {
+    width: auto;
+    height: 100;
+    
+  }
+}
+/* Creo el estilo del pie de pagina con contacto */
+#final {
+text-align: center;
+background-color: DarkSalmon;
+color: white;
+float: inline-end;
+}
+
+h2, h3{
+color: #666;
+font-weight: 700;
 
 }
 
-.Detalle-Experiencia{
-  border: 5px solid grey;
-  background-color: rgb(129, 224, 193);
-  border-radius: 15px;
-  width: 300px;
-  margin:20px;
-  font-family:courier;
-}
 nav ul{
-  display: flex;
-  justify-content: center;
-  list-style: none;
+display: flex;
+justify-content: center;
+list-style: none;
 
 }
 
 nav{
-  padding-top: 30px;
-  padding-bottom: 30px;
-  background-color: antiquewhite;
+padding-top: 30px;
+padding-bottom: 30px;
+background-color: antiquewhite;
 }
 
 nav ul li{
-  margin-left: 20px;
-  margin-right: 20px;
-  padding: 10px 20px;
-  background-color: aliceblue;
-}
-header{
-  position: sticky;
-  top: 0;
-}
-
-header img{
-  position: left;
-  width: 200px;
-
-}
-
-h1{
-  font-size: 3rem;
-  text-transform: uppercase;
-}
-
-h2{
-  font-size: 2rem;
-  text-align: center;
-  font-family: 'Gloock', serif;
-}
-
-body{
-  background-color: antiquewhite;
-}
-
-.Contacto{
- background-position: center;
- text-align: justify;
- background-color: azure;
- height: auto;
- width: auto;
- border: 5px  solid grey ;
- padding: 5px;
- margin: 25px
-
-}
-article{
-  background-color: grey;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  font-family:verdana
+margin-left: 20px;
+margin-right: 20px;
+padding: 10px 20px;
+background-color: aliceblue;
 }
